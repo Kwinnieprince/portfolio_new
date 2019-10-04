@@ -1,32 +1,35 @@
 import { Link } from "gatsby"
+import {FaLanguage} from "react-icons/fa"
 import PropTypes from "prop-types"
 import React from "react"
+import GlitchEffect from "react-glitch-effect"
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `none`,
       marginBottom: `1.45rem`,
     }}
   >
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <div style={{paddingTop: `1.5vh`}}>
+        <ul style={{listStyle: `none`, textTransform: `lowercase`}}>
+
+
+          <li style={{display: `block`}}>
+            <Link style={{textDecoration: `none`}}>
+              <h1 style={{textAlign: `left`}}>
+                Kwinten
+              </h1>
+            </Link>
+          </li>
+        </ul>
+      </div>
     </div>
   </header>
 )
@@ -40,3 +43,4 @@ Header.defaultProps = {
 }
 
 export default Header
+
