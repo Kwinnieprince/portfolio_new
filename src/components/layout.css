@@ -634,6 +634,55 @@ ul li{
   border-radius: 5px;
 }
 
+#studies, #werkervaring, #vrijwilliger{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.3fr 1fr 1fr;
+  margin-bottom: 2em;
+}
+
+#studies > h3, #werkervaring > h3, #vrijwilliger > h3{
+  grid-row: 1;
+  grid-column: 1 / span 2;
+}
+
+#schoolOne, #werkOne, #vrijOne{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#schoolTwo, #werkTwo, #vrijTwo{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#schoolThree, #werkThree, #vrijThree{
+  grid-column: 1;
+  grid-row: 3;
+}
+
+#schoolFour{
+  grid-column: 2;
+  grid-row: 3;
+}
+
+#indexGrid{
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  margin-top: -2em;
+}
+
+#cvGrid, #aboutGrid{
+  display: grid;
+  grid-template-rows: 0.5fr auto;
+  grid-template-columns: 2.5fr 1fr;
+  grid-template-columns: -2em;
+}
+
+#cvWrapper{
+  grid-row: 2;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

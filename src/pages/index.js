@@ -7,8 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <div style={{ display: `grid`,
-                  gridTemplateColumns: `2.5fr 1fr`, marginTop: `-2em`}}>
+    <div id="indexGrid">
       <SEO title="Home" />
       <div style={{paddingTop: `50px`}}>
         <h1 style={{margin: 0, fontSize: `7vw`, gridColumn: 1}}>Hallo, ik ben <br/> systeem- en <br/> netwerkbeheerder | <br/> frontend designer</h1>
@@ -52,7 +51,7 @@ const IndexPage = () => (
           </ul>
         </div>
       </div>
-    </div>
+    </div> 
   </Layout>
 )
 
