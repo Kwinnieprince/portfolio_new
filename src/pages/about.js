@@ -11,9 +11,11 @@ const AboutPage = () => (
       <SEO title="About" />
       <h1>Over mij</h1>
 
-      <div style={{gridColumn: 2, gridRow: 2}}>
+      <div style={{gridColumn: 2, gridRow: 2, marginTop: `-107px`}}>
                   <div style={{ maxWidth: `400px`, margin: `0 auto`, zIndex: 1000 }}>
+                  <Link  to="/">
                     <Image />
+                  </Link>
                   </div>
                   <div style={{ margin: `0 auto`, zIndex: 20000}}>
                     <ul style={{listStyle: `none`, textTransform: `lowercase`, textAlign: `center`, margin: 0}}>

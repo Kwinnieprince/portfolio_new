@@ -34,13 +34,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-         <p>
-            © {new Date().getFullYear()}, Built by
-            {` `}
-            <a href="https://kwinten.me">Kwinten Delrue</a> with Gatsby
-          </p>
-        </footer>
+
       </div>
     </>
     // style={{position: `absolute`, bottom: `0`, width: `100%`, height: `2em`, left: 0, marginLeft: `1.45rem`}}

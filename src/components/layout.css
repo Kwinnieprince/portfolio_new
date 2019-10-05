@@ -626,6 +626,14 @@ ul li{
   margin-bottom: 0 !important;
 }
 
+::selection{
+  background: grey;
+}
+
+::-moz-selection {
+  background: grey;
+}
+
 #contactme {
   background-color: black;
   color: white;
@@ -646,17 +654,17 @@ ul li{
   grid-column: 1 / span 2;
 }
 
-#schoolOne, #werkOne, #vrijOne{
+#schoolOne, #workOne, #vrijOne{
   grid-column: 1;
   grid-row: 2;
 }
 
-#schoolTwo, #werkTwo, #vrijTwo{
+#schoolTwo, #workTwo, #vrijTwo{
   grid-column: 2;
   grid-row: 2;
 }
 
-#schoolThree, #werkThree, #vrijThree{
+#schoolThree, #workThree, #vrijThree{
   grid-column: 1;
   grid-row: 3;
 }
@@ -672,19 +680,53 @@ ul li{
   margin-top: -2em;
 }
 
-#cvGrid, #aboutGrid{
+#cvGrid, #aboutGrid, #workGrid, #contactGrid{
   display: grid;
   grid-template-rows: 0.5fr auto;
   grid-template-columns: 2.5fr 1fr;
   grid-template-columns: -2em;
 }
 
-#cvWrapper{
-  grid-row: 2;
+#cvWrapper, #workWrapper, #contactWrapper{
+  grid-row: 2; 
+}
+
+#worksOne, #worksTwo, #worksThree, #worksFour, #worksFive{
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  margin-bottom: 2em;
+}
+
+.workGridTwo{
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#contactWrapper{
+  display: grid;
+  grid-template-columns: 2;
+}
+
+.contact{
+  grid-column: 2;
+}
+
+.hiClass{
+  grid-column:1;
 }
 
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #indexGrid{
+    display: block;
+  }
+
+  #indexGrid > div > h1{
+    font-size: 9.8vw !important;
   }
 }

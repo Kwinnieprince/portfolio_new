@@ -40,9 +40,11 @@ const CvPage = () => (
           </li>
         </ul>
 
-        <div style={{gridColumn: 2, gridRow: 2}}>
+        <div style={{gridColumn: 2, gridRow: 2, marginTop: `-50px`}}>
                   <div style={{ maxWidth: `400px`, margin: `0 auto`, zIndex: 1000 }}>
+                  <Link  to="/">
                     <Image />
+                  </Link>
                   </div>
                   <div style={{ margin: `0 auto`, zIndex: 20000}}>
                     <ul style={{listStyle: `none`, textTransform: `lowercase`, textAlign: `center`, margin: 0}}>
@@ -90,7 +92,7 @@ const CvPage = () => (
                     <p style={{margin: 0}}>University Colleges Leuven Limburg</p>
                 </div>
                 <div id="schoolTwo" style={{marginBottom: `2em`}}>
-                    <h4 style={{margin: 0, marginBottom: `5px`}}>Computer sience | Cybersecurity</h4>
+                    <h4 style={{margin: 0, marginBottom: `5px`}}>Computer science | Cybersecurity</h4>
                     <p style={{margin: 0}}>September 2019 - December 2019</p>
                     <p style={{margin: 0}}>Cardiff Metropolian University</p>
                 </div>
@@ -98,46 +100,47 @@ const CvPage = () => (
                     <h4 style={{margin: 0, marginBottom: `5px`}}>Elektromechanica</h4>
                     <p style={{margin: 0}}>Tweede graad 2013 - 2017</p>
                     <p style={{margin: 0}}></p>
-                    <p style={{margin: 0}}>Vrij Technisch instituut Leuven</p>
+                    <p style={{margin: 0}}>Vrij Technisch Instituut Leuven</p>
                 </div>
                 <div id="schoolFour" style={{marginBottom: `2em`}}>
                     <h4 style={{margin: 0, marginBottom: `5px`}}>Moderne talen</h4>
                     <p style={{margin: 0}}>Eerste graad 2011 - 2013</p>
-                    <p style={{margin: 0}}>Sint-pieterscollege Leuven</p>
+                    <p style={{margin: 0}}>Sint-Pieterscollege Leuven</p>
                 </div>
             </div>
-              <div id="werkervaring">
+            <div id="werkervaring" style={{marginBottom: 0}}>
               <h3>Werkervaring</h3>
               <div id="workOne" style={{marginBottom: `2em`}}>
                 <h4 style={{margin: 0, marginBottom: `5px`}}>Sales and training partner</h4>
-                <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`}}>Edu-tech</h4>
-                <p style={{margin: 0}}>2017-heden</p>
-                <p style={{margin: 0}}>Verantwoordelijk voor sales, cursussen geven over o365</p>
+                <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`, marginBottom: `5px`}}>Edu-tech</h4>
+                <p style={{margin: 0}}>2017 - heden</p>
+                <p style={{margin: 0}}>Verantwoordelijk voor sales</p>
+                <p style={{margin: 0}}>Cursussen geven over Office 365</p>
                 <p style={{margin: 0}}>Ontwerpen van sharepoint websites</p>
                 <p style={{margin: 0}}>Beheren van netwerken</p>
               </div>
               <div id="workTwo" style={{marginBottom: `2em`}}>
                 <h4 style={{margin: 0, marginBottom: `5px`}}>Webmaster</h4>
-                <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`}}>Universitair Orkest van de KU-Leuven</h4>
-                <p style={{margin: 0}}>2018-heden</p>
-                <p style={{margin: 0}}>Onderhoud en developent van de website</p>
+                <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`, marginBottom: `5px`}}>Universitair Orkest van de KU-Leuven</h4>
+                <p style={{margin: 0}}>2018 - heden</p>
+                <p style={{margin: 0}}>Onderhoud en development van de website</p>
               </div>
               <div id="workThree">
                 <h4 style={{margin: 0, marginBottom: `5px`}}>Rider</h4>
-                <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`}}>Deliveroo</h4>
-                <p style={{margin: 0}}>2016-2019</p>
-                <p style={{margin: 0}}>Eten vervoeren van restaurant naar hongerige klanten</p>
+                <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`, marginBottom: `5px`}}>Deliveroo</h4>
+                <p style={{margin: 0}}>2016 - 2019</p>
+                <p style={{margin: 0}}>Eten vervoeren van restaurant naar klant</p>
               </div>
               </div>
               <div id="vrijwilliger">
                 <h3>Vrijwilligerswerk</h3>
                 <div id="vrijOne" style={{marginBottom: `2em`}}>
                   <h4 style={{margin: 0}}>Hoofd van Techniek</h4>
-                  <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`}}>Levet Scone wilsele</h4>
+                  <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`}}>Levet Scone Wilsele</h4>
                 </div>
                 <div id="vrijTwo" style={{marginBottom: `2em`}}>
                   <h4 style={{margin: 0}}>Geluidstechnieker | Stagehand</h4>
-                  <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`}}>Het depot</h4>
+                  <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`}}>Het Depot</h4>
                 </div>
                 <div id="vrijThree" style={{marginBottom: `2em`}}>
                   <h4 style={{margin: 0}}>Actief lid</h4>
@@ -147,8 +150,13 @@ const CvPage = () => (
             </div>
           </div>
         </div>
-        
-    
+        <footer>
+         <p>
+            © {new Date().getFullYear()}, Built by
+            {` `}
+            <a href="https://kwinten.me">Kwinten Delrue</a> with Gatsby
+          </p>
+     </footer>
   </Layout>
 )
 

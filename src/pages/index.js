@@ -14,7 +14,9 @@ const IndexPage = () => (
       </div>
       <div style={{gridColumn: 2}}>
         <div style={{ maxWidth: `400px`, margin: `0 auto`, zIndex: 1000 }}>
-          <Image />
+          <Link  to="/">
+            <Image />
+          </Link>
         </div>
         <div style={{ margin: `0 auto`, zIndex: 20000}}>
           <ul style={{listStyle: `none`, textTransform: `lowercase`, textAlign: `center`, margin: 0}}>
@@ -51,7 +53,14 @@ const IndexPage = () => (
           </ul>
         </div>
       </div>
-    </div> 
+    </div>
+    <footer style={{position: `absolute`, bottom: `0`, height: `2em`, left: 0, marginLeft: `2.4rem`}}>
+         <p>
+            © {new Date().getFullYear()}, Built by
+            {` `}
+            <a href="https://kwinten.me">Kwinten Delrue</a> with Gatsby
+          </p>
+     </footer>
   </Layout>
 )
 
