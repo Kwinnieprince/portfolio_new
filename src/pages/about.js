@@ -52,6 +52,45 @@ const AboutPage = () => (
                     </ul>
                   </div>
             </div>
+            <div id="aboutWrapper">
+              <div>
+                Al van jongs af aan was ik geïnteresseerd in alles wat met systeem en netwerkbeheer te maken heeft.
+              </div>
+                <div id="talents">
+                  <h3>Mijn talenten</h3>
+                  <div>
+                    <p>Netwerkbeheer</p>
+                    <p>3 jaar ervaring</p>
+                  </div>
+                  <div>
+                    <p>Webontwikkeling</p>
+                    <p>4 jaar ervaring</p>
+                  </div>
+                  <div>
+                    <p>Linux | Unix</p>
+                    <p>4 jaar ervaring</p>
+                  </div>
+                  <div>
+                    <p>Sharepoint ontwerp</p>
+                    <p>3 jaar ervaring</p>
+                  </div>
+                  <div>
+                    <p>Office 365</p>
+                    <p>3 jaar ervaring</p>
+                  </div>
+                  <div>
+                    <p>Micosoft Azure</p>
+                    <p>1 jaar ervaring</p>
+                  </div>
+                  <div>
+                    <h4>Andere talenten</h4>
+                    <p>Java</p>
+                    <p>Git</p>
+                    <p>Engels</p>
+                    <p>Frans</p>
+                  </div>
+                </div>
+            </div>
 
     </div>
     

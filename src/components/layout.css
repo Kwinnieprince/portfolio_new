@@ -687,7 +687,7 @@ ul li{
   grid-template-columns: -2em;
 }
 
-#cvWrapper, #workWrapper, #contactWrapper{
+#cvWrapper, #workWrapper, #contactWrapper, #aboutWrapper{
   grid-row: 2; 
 }
 

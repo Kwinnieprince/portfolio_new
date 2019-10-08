@@ -13,7 +13,7 @@ const CvPage = () => (
         <SEO title="Home" />
         <ul style={{listStyle: `none`, margin: 0, paddingBottom: `1.5em`, gridRow: `1`}}>
           <li style={{display: `inline-block`}}>
-            <h1  style={{paddingBottom: `1em`}}>Mijn CV</h1>
+            <h1  style={{paddingBottom: `1em`}}>Mijn cv</h1>
           </li>
         </ul>
         <ul style={{listStyle: `none`, margin: 0, paddingBottom: `1.5em`, gridRow: `1`}}>
@@ -145,6 +145,21 @@ const CvPage = () => (
                 <div id="vrijThree" style={{marginBottom: `2em`}}>
                   <h4 style={{margin: 0}}>Actief lid</h4>
                   <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`}}>Informatica Studentenwerking Leuven</h4>
+                </div>
+              </div>
+              <div id="vrijwilliger">
+                <h3>Talen</h3>
+                <div id="vrijOne" style={{marginBottom: `2em`}}>
+                  <h4 style={{margin: 0}}>Nederlands</h4>
+                  <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`}}>Moedertaal</h4>
+                </div>
+                <div id="vrijTwo" style={{marginBottom: `2em`}}>
+                  <h4 style={{margin: 0}}>Frans</h4>
+                  <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`}}></h4>
+                </div>
+                <div id="vrijThree" style={{marginBottom: `2em`}}>
+                  <h4 style={{margin: 0}}>Engels</h4>
+                  <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`}}>Niveau B2</h4>
                 </div>
               </div>
             </div>
