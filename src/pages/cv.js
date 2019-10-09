@@ -121,7 +121,7 @@ const CvPage = () => (
               </div>
             </div>
           </div>
-          <div style={{gridColumn: 2, gridRow: 2, marginTop: `-50px`}}>
+          <div className="navigation" style={{gridColumn: 2, gridRow: 2, marginTop: `-50px`}}>
                   <div style={{ maxWidth: `400px`, margin: `0 auto`, zIndex: 1000 }}>
                   <Link  to="/">
                     <Image />

@@ -18,7 +18,7 @@ const IndexPage = () => (
             <Image />
           </Link>
         </div>
-        <div style={{ margin: `0 auto`, zIndex: 20000}}>
+        <div className="navigation" style={{ margin: `0 auto`, zIndex: 20000}}>
           <ul style={{listStyle: `none`, textTransform: `lowercase`, textAlign: `center`, margin: 0}}>
             <li style={{marginTop: `-1.8em`}}>
               {/* <GlitchEffect onHover={true} duration={"5s"}> */}

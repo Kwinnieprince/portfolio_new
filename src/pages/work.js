@@ -84,7 +84,7 @@ const WorkPage = () => (
             </div>
           </div>
       </div>
-      <div style={{gridColumn: 2, gridRow: 2, marginTop: `-107px`}}>
+      <div className="navigation" style={{gridColumn: 2, gridRow: 2, marginTop: `-107px`}}>
                   <div style={{ maxWidth: `400px`, margin: `0 auto`, zIndex: 1000 }}>
                   <Link  to="/">
                     <Image />

@@ -12,9 +12,6 @@ const ContactPage = () => (
       <SEO title="Home" />
       <h1>Contacteer mij</h1>
       <div id="contactWrapper">
-      <div className="hiClass">
-          <img src="https://kwinten.me/bear.gif" style={{width: `20em`, filter: `grayscale(1)`}}></img>
-        </div>
         <div className="contact">
           <h3>Kwinten Delrue</h3>
           <p>
@@ -28,8 +25,11 @@ const ContactPage = () => (
             <a href="https://github.com/Kwinnieprince"><FaGithubAlt/></a>
           </p>
         </div>
+        <div className="hiClass">
+          <img src="https://kwinten.me/bear.gif" style={{width: `20em`, filter: `grayscale(1)`}}></img>
+        </div>
       </div>
-      <div style={{gridColumn: 2, gridRow: 2, marginTop: `-107px`}}>
+      <div className="navigation" style={{gridColumn: 2, gridRow: 2, marginTop: `-107px`}}>
         <div style={{ maxWidth: `400px`, margin: `0 auto`, zIndex: 1000 }}>
           <Link  to="/">
            <Image />
@@ -63,7 +63,7 @@ const ContactPage = () => (
           </div>
         </div>
     </div>
-    <footer style={{position: `absolute`, bottom: `0`, height: `2em`, left: 0, marginLeft: `2.4rem`}}>
+    <footer id="contactFooter" style={{position: `absolute`, bottom: `0`, height: `2em`, left: 0, marginLeft: `2.4rem`}}>
          <p>
             © {new Date().getFullYear()}, Built by
             {` `}

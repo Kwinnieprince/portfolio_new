@@ -781,7 +781,7 @@ ul li{
 }
 
 @media screen and (max-width: 800px){
-  #indexGrid, #cvGrid, #aboutGrid, #workGrid, #contactGrid{
+  #indexGrid, #cvGrid, #aboutGrid, #workGrid, #contactGrid, #contactWrapper{
     display: block;
   }
 
@@ -789,7 +789,7 @@ ul li{
     font-size: 8.5vw !important;
   }
 
-  #indexFooter{
+  #indexFooter, #contactFooter{
     position: static !important;
     margin-left: 0 !important;
     
@@ -803,17 +803,21 @@ ul li{
     display: none !important;
   }
 
-  #contactGrid{
-    display: grid;
-    grid-template-rows: auto !important;
-    grid-template-columns: auto auto auto !important;
+  .talentsGrid{
+    grid-template-rows: auto auto auto auto !important;
+    grid-template-columns: auto auto !important;
   }
 
-  #contactWrapper{
+  #otherTalents{
+    grid-template-columns: auto auto auto auto !important;
+    grid-column: 1 / span 2 !important;
+  }
+
+  .navigation{
+    margin-top: 0 !important;
+  }
+
+  #worksOne, #worksTwo, #worksThree, #worksFour, #worksFive{
     display: block;
-  }
-
-  .hiClass{
-
   }
 }
