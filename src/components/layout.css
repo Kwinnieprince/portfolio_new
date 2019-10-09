@@ -746,6 +746,16 @@ ul li{
   margin-top: 1em;
 }
 
+#indexFooter{
+  position: absolute;
+  bottom: 0;
+  height: 2em;
+  left: 0;
+  margin-left: 2.4rem;
+}
+
+/* Media queries */
+
 @media (prefers-color-scheme: dark) {
   ::selection{
     background: #e39777;
@@ -771,11 +781,39 @@ ul li{
 }
 
 @media screen and (max-width: 800px){
-  #indexGrid{
+  #indexGrid, #cvGrid, #aboutGrid, #workGrid, #contactGrid{
     display: block;
   }
 
   #indexGrid > div > h1{
-    font-size: 9.8vw !important;
+    font-size: 8.5vw !important;
+  }
+
+  #indexFooter{
+    position: static !important;
+    margin-left: 0 !important;
+    
+  }
+
+  footer{
+    margin-top: 2em;
+  }
+
+  #contacts{
+    display: none !important;
+  }
+
+  #contactGrid{
+    display: grid;
+    grid-template-rows: auto !important;
+    grid-template-columns: auto auto auto !important;
+  }
+
+  #contactWrapper{
+    display: block;
+  }
+
+  .hiClass{
+
   }
 }

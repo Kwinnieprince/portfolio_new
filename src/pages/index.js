@@ -54,7 +54,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <footer style={{position: `absolute`, bottom: `0`, height: `2em`, left: 0, marginLeft: `2.4rem`}}>
+    <footer id="indexFooter">
          <p>
             © {new Date().getFullYear()}, Built by
             {` `}

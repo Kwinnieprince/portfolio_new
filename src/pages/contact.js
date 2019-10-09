@@ -11,7 +11,24 @@ const ContactPage = () => (
     <div id="contactGrid">
       <SEO title="Home" />
       <h1>Contacteer mij</h1>
-
+      <div id="contactWrapper">
+      <div className="hiClass">
+          <img src="https://kwinten.me/bear.gif" style={{width: `20em`, filter: `grayscale(1)`}}></img>
+        </div>
+        <div className="contact">
+          <h3>Kwinten Delrue</h3>
+          <p>
+            <a href="mailto:kwinten@delrue.com" style={{textDecoration: `none`}}><FaPaperPlane/> kwinten@delrue.com</a>
+          </p>
+          <p>
+            <a href="tel:+32470859657" style={{textDecoration: `none`}}><FaPhone/> +32470859657</a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/kwinten-delrue" style={{paddingRight: `1em`}}><FaLinkedinIn/></a>
+            <a href="https://github.com/Kwinnieprince"><FaGithubAlt/></a>
+          </p>
+        </div>
+      </div>
       <div style={{gridColumn: 2, gridRow: 2, marginTop: `-107px`}}>
         <div style={{ maxWidth: `400px`, margin: `0 auto`, zIndex: 1000 }}>
           <Link  to="/">
@@ -45,24 +62,6 @@ const ContactPage = () => (
             </ul>
           </div>
         </div>
-      <div id="contactWrapper">
-      <div className="hiClass">
-          <img src="https://kwinten.me/bear.gif" style={{width: `20em`, filter: `grayscale(1)`}}></img>
-        </div>
-        <div className="contact">
-          <h3>Kwinten Delrue</h3>
-          <p>
-            <a href="mailto:kwinten@delrue.com" style={{textDecoration: `none`}}><FaPaperPlane/> kwinten@delrue.com</a>
-          </p>
-          <p>
-            <a href="tel:+32470859657" style={{textDecoration: `none`}}><FaPhone/> +32470859657</a>
-          </p>
-          <p>
-            <a href="https://www.linkedin.com/in/kwinten-delrue" style={{paddingRight: `1em`}}><FaLinkedinIn/></a>
-            <a href="https://github.com/Kwinnieprince"><FaGithubAlt/></a>
-          </p>
-        </div>
-      </div>
     </div>
     <footer style={{position: `absolute`, bottom: `0`, height: `2em`, left: 0, marginLeft: `2.4rem`}}>
          <p>
