@@ -97,7 +97,7 @@ const AboutPage = () => (
                   </div>
             </div>
     </div>
-    <footer>
+    <footer id="aboutFooter" style={{position: `absolute`, bottom: `0`, height: `2em`, left: 0, marginLeft: `2.4rem`}}>
          <p>
             © {new Date().getFullYear()}, Built by
             {` `}

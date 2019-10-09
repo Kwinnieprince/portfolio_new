@@ -713,6 +713,7 @@ ul li{
 
 .hiClass{
   grid-column:1;
+  grid-row: 1;
 }
 
 #talents > :first-child{
@@ -789,7 +790,7 @@ ul li{
     font-size: 8.5vw !important;
   }
 
-  #indexFooter, #contactFooter{
+  #indexFooter, #contactFooter, #aboutFooter{
     position: static !important;
     margin-left: 0 !important;
     
