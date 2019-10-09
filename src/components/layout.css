@@ -715,6 +715,55 @@ ul li{
   grid-column:1;
 }
 
+#talents > :first-child{
+  padding-top: 1em;
+}
+
+.talentsGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.talentsGrid > :first-child{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.talentsGrid > #otherTalents{
+  grid-column: 1 / span 3;
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.talentsGrid > #otherTalents > :first-child{
+  grid-row: 1;
+  grid-column: 1 / span 4;
+  margin-bottom: 0;
+}
+
+.talentsGrid > #otherTalents > :first-child{
+  margin-top: 1em;
+}
+
+@media (prefers-color-scheme: dark) {
+  ::selection{
+    background: #e39777;
+  }
+  
+  ::-moz-selection {
+    background: #e39777;
+  }
+
+  body {
+    background-color: #444;
+    color: #e4e4e4;
+  }
+  a {
+    color: #e39777;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

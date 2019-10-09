@@ -54,40 +54,46 @@ const AboutPage = () => (
             </div>
             <div id="aboutWrapper">
               <div>
-                Al van jongs af aan was ik geïnteresseerd in alles wat met systeem en netwerkbeheer te maken heeft.
+                <p>
+                  Hallo ik ben Kwinten, ik ben gepassioneerd in systeem- en netwerkbeheer, websites maken en ik speel zelf ook Viool.
+                  Al van jongs af aan was ik geïnteresseerd in alles wat met systeem en netwerkbeheer te maken heeft en ik was snel bekend bij vrienden en familie voor mijn behulpzaamheid .
+                  Mijn droom is om webdsigner of systeem- en netwerkbeheerder te worden voor cloud- en on-premise diensten.
+                </p>                
               </div>
                 <div id="talents">
                   <h3>Mijn talenten</h3>
-                  <div>
-                    <p>Netwerkbeheer</p>
-                    <p>3 jaar ervaring</p>
-                  </div>
-                  <div>
-                    <p>Webontwikkeling</p>
-                    <p>4 jaar ervaring</p>
-                  </div>
-                  <div>
-                    <p>Linux | Unix</p>
-                    <p>4 jaar ervaring</p>
-                  </div>
-                  <div>
-                    <p>Sharepoint ontwerp</p>
-                    <p>3 jaar ervaring</p>
-                  </div>
-                  <div>
-                    <p>Office 365</p>
-                    <p>3 jaar ervaring</p>
-                  </div>
-                  <div>
-                    <p>Micosoft Azure</p>
-                    <p>1 jaar ervaring</p>
-                  </div>
-                  <div>
-                    <h4>Andere talenten</h4>
-                    <p>Java</p>
-                    <p>Git</p>
-                    <p>Engels</p>
-                    <p>Frans</p>
+                  <div className="talentsGrid">
+                    <div>
+                      <h4 style={{marginBottom: 0}}>Netwerkbeheer</h4>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>3 jaar ervaring</p>
+                    </div>
+                    <div>
+                      <h4 style={{marginBottom: 0}}>Webontwikkeling</h4>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>4 jaar ervaring</p>
+                    </div>
+                    <div>
+                      <h4 style={{marginBottom: 0}}>Linux | Unix</h4>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>4 jaar ervaring</p>
+                    </div>
+                    <div>
+                      <h4 style={{marginBottom: 0}}>Sharepoint ontwerp</h4>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>3 jaar ervaring</p>
+                    </div>
+                    <div>
+                      <h4 style={{marginBottom: 0}}>Office 365</h4>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>3 jaar ervaring</p>
+                    </div>
+                    <div>
+                      <h4 style={{marginBottom: 0}}>Micosoft Azure</h4>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>1 jaar ervaring</p>
+                    </div>
+                    <div id="otherTalents">
+                      <h4 style={{marginBottom: 0}}>Andere talenten</h4>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>Java</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>Git</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>Engels</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>Frans</p>
+                    </div>
                   </div>
                 </div>
             </div>
