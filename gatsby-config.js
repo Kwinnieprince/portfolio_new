@@ -27,8 +27,21 @@ module.exports = {
         icon: `src/images/me.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: 'gatsby-plugin-i18n',
+      options: {        
+        langKeyDefault: 'nl',
+        useLangKeyLayout: false
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-fathom',
+      options: {
+        // Fathom server URL. Defaults to `cdn.usefathom.com`
+        trackingUrl: 'vm.kwinten.me',
+        // Unique site id
+        siteId: 'MHXDE'
+      }
+    },
   ],
 }
