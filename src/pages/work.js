@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 import WeerWilseleImg from "../components/weerWilseleImg"
 import NodeRedImg from "../components/NodeRedImg"
 import PicrossImg from "../components/PicrossImg"
+import UsoImg from "../components/UsoImg"
 import SpringImg from "../components/SpringImg"
 
 const WorkPage = () => (
@@ -73,6 +74,20 @@ const WorkPage = () => (
               </div>
           </div>
           <div id="worksFive">
+              <div style={{ maxWidth: `400px`}}>
+                <UsoImg/>
+              </div>
+              <div className="workGridTwo">
+                <h4 style={{marginBottom: `0.5em`}}>Website USO-Leuven</h4>
+                <h4 style={{fontSize: 16, fontWeight: `normal`, marginBottom: `0.5em`}}>Wordpress</h4>
+                <p>
+                  <a href="https://usoleuven.be">
+                    <FaGlobe/>
+                  </a>
+                </p>
+              </div>
+          </div>
+          <div id="worksSix">
             <div className="workGridTwo">
               <h4 style={{marginBottom: `0.5em`}}>Chat-app</h4>
               <h4 style={{fontSize: 16, fontWeight: `normal`, marginBottom: `0.5em`}}>Java | JS | Angular</h4>

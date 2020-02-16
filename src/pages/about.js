@@ -14,7 +14,7 @@ const AboutPage = () => (
               <div>
                 <p>
                   Hallo ik ben Kwinten, ik ben gepassioneerd in systeem- en netwerkbeheer, websites maken en ik speel zelf ook viool.
-                  Al van jongs af aan was ik geïnteresseerd in alles wat met systeem en netwerkbeheer te maken heeft en ik was snel bekend bij vrienden en familie voor mijn behulpzaamheid .
+                  Al van jongs af aan was ik geïnteresseerd in alles wat met systeem en netwerkbeheer te maken heeft en ik was snel bekend bij vrienden en familie voor mijn behulpzaamheid.
                   Mijn droom is om webdesigner of systeem- en netwerkbeheerder te worden voor cloud- en on-premise diensten.
                 </p>                
               </div>

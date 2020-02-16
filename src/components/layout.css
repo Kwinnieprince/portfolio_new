@@ -669,7 +669,7 @@ ul li{
   grid-row: 3;
 }
 
-#schoolFour{
+#schoolFour, #workFour{
   grid-column: 2;
   grid-row: 3;
 }
@@ -691,7 +691,7 @@ ul li{
   grid-row: 2; 
 }
 
-#worksOne, #worksTwo, #worksThree, #worksFour, #worksFive{
+#worksOne, #worksTwo, #worksThree, #worksFour, #worksFive, #worksSix{
   display: grid;
   grid-template-columns: 0.7fr 1fr;
   margin-bottom: 2em;

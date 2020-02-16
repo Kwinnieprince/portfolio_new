@@ -77,12 +77,18 @@ const CvPage = () => (
                 <p style={{margin: 0}}>Beheren van netwerken</p>
               </div>
               <div id="workTwo" style={{marginBottom: `2em`}}>
+                <h4 style={{margin: 0, marginBottom: `5px`}}>Stagair</h4>
+                <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`, marginBottom: `5px`}}>Datacamp Leuven</h4>
+                <p style={{margin: 0}}>Februari 2020 - Juni 2020</p>
+                <p style={{margin: 0}}>DevOps</p>
+              </div>
+              <div id="workThree" style={{marginBottom: `2em`}}>
                 <h4 style={{margin: 0, marginBottom: `5px`}}>Webmaster</h4>
                 <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`, marginBottom: `5px`}}>Universitair Orkest van de KU-Leuven</h4>
                 <p style={{margin: 0}}>2018 - heden</p>
                 <p style={{margin: 0}}>Onderhoud en development van de website</p>
               </div>
-              <div id="workThree">
+              <div id="workFour">
                 <h4 style={{margin: 0, marginBottom: `5px`}}>Rider</h4>
                 <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`, marginBottom: `5px`}}>Deliveroo</h4>
                 <p style={{margin: 0}}>2016 - 2019</p>
