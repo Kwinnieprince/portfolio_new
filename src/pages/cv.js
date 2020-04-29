@@ -80,7 +80,7 @@ const CvPage = () => (
                 <h4 style={{margin: 0, marginBottom: `5px`}}>Stagair</h4>
                 <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`, marginBottom: `5px`}}>Datacamp Leuven</h4>
                 <p style={{margin: 0}}>Februari 2020 - Juni 2020</p>
-                <p style={{margin: 0}}>DevOps</p>
+                <p style={{margin: 0}}>Infrastructure engineer</p>
               </div>
               <div id="workThree" style={{marginBottom: `2em`}}>
                 <h4 style={{margin: 0, marginBottom: `5px`}}>Webmaster</h4>

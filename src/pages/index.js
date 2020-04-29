@@ -10,7 +10,7 @@ const IndexPage = () => (
     <div id="indexGrid">
       <SEO title="Home" />
       <div style={{paddingTop: `50px`}}>
-        <h1 style={{margin: 0, fontSize: `7vw`, gridColumn: 1}}>Hallo, ik ben <br/> systeem- en <br/> netwerkbeheerder | <br/> frontend designer</h1>
+        <h1 style={{margin: 0, fontSize: `7vw`, gridColumn: 1}}>Hallo, ik ben <br/> systeem- en <br/> netwerkbeheerder | <br/> Infrastructure engineer</h1>
       </div>
       <div style={{gridColumn: 2}}>
         <div style={{ maxWidth: `400px`, margin: `0 auto`, zIndex: 1000 }}>

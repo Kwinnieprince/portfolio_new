@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `Kwinten Delrue`,
-    description: `Portfolio from Kwinten Delrue`,
-    author: `@kwintenD`,
+    description: `I am Kwinten and I am a Infrastructure engineer & frontend developer`,
+    author: `Kwinten Delrue`,
+    siteUrl: `https://kwinten.me`
   },
   plugins: [
+    `gatsby-plugin-cname`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -35,13 +37,15 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-fathom',
+      resolve: `gatsby-plugin-posthog-analytics`,
       options: {
-        // Fathom server URL. Defaults to `cdn.usefathom.com`
-        trackingUrl: 'vm.kwinten.me',
-        // Unique site id
-        siteId: 'MHXDE'
-      }
+        // Specify the API key for your Posthog Project (required)
+        apiKey: "xUHFiBHmqFBKb4AUrXHFDwnr57_fCtPLw0nqJ-vQauw",
+        // Specify the app host if self-hosting (optional, default: https://app.posthog.com)
+        appHost: "analytics.kwinten.me",
+        // Puts tracking script in the head instead of the body (optional, default: true)
+        head: true
+      },
     },
   ],
 }

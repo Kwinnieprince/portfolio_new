@@ -23,15 +23,15 @@ const AboutPage = () => (
                   <div className="talentsGrid">
                     <div>
                       <h4 style={{marginBottom: 0}}>Netwerkbeheer</h4>
-                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>3 jaar ervaring</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>4 jaar ervaring</p>
                     </div>
                     <div>
                       <h4 style={{marginBottom: 0}}>Webontwikkeling</h4>
-                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>4 jaar ervaring</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>5 jaar ervaring</p>
                     </div>
                     <div>
                       <h4 style={{marginBottom: 0}}>Linux | Unix</h4>
-                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>4 jaar ervaring</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>5 jaar ervaring</p>
                     </div>
                     <div>
                       <h4 style={{marginBottom: 0}}>Sharepoint ontwerp</h4>
@@ -42,8 +42,8 @@ const AboutPage = () => (
                       <p style={{fontWeight: `normal`, fontSize: `16px`}}>3 jaar ervaring</p>
                     </div>
                     <div>
-                      <h4 style={{marginBottom: 0}}>Micosoft Azure</h4>
-                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>1 jaar ervaring</p>
+                      <h4 style={{marginBottom: 0}}>Docker</h4>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>2 jaar ervaring</p>
                     </div>
                     <div id="otherTalents">
                       <h4 style={{marginBottom: 0}}>Andere talenten</h4>
@@ -51,6 +51,10 @@ const AboutPage = () => (
                       <p style={{fontWeight: `normal`, fontSize: `16px`}}>Git</p>
                       <p style={{fontWeight: `normal`, fontSize: `16px`}}>Engels</p>
                       <p style={{fontWeight: `normal`, fontSize: `16px`}}>Frans</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>React</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>Terraform</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>AWS</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>Microsoft Azure</p>
                     </div>
                   </div>
                 </div>

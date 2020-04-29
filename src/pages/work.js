@@ -10,6 +10,7 @@ import NodeRedImg from "../components/NodeRedImg"
 import PicrossImg from "../components/PicrossImg"
 import UsoImg from "../components/UsoImg"
 import SpringImg from "../components/SpringImg"
+import FoodImg from "../components/FoodImg"
 
 const WorkPage = () => (
   <Layout>
@@ -23,7 +24,7 @@ const WorkPage = () => (
               </div>
               <div className="workGridTwo">
                 <h4 style={{marginBottom: `0.5em`}}>Weer Wilsele</h4>
-                <h4 style={{fontSize: 16, fontWeight: `normal`, marginBottom: `0.5em`}}>JS | Elastic Stack | Node.js | jQuery | HTML | Azure</h4>
+                <h4 style={{fontSize: 16, fontWeight: `normal`, marginBottom: `0.5em`}}>JS | React | Node.js | Python | HTML | Azure</h4>
                 <p >
                   <a href="https://weg.kwinten.me">
                     <FaGlobe/>
@@ -47,6 +48,23 @@ const WorkPage = () => (
           </div>
           <div id="worksThree">
           <div style={{ maxWidth: `400px`, border:`0.5px solid grey`}}>
+                <FoodImg/>
+              </div>
+            <div className="workGridTwo">
+              <h4 style={{marginBottom: `0.5em`}}>Website om gerechten te vinden</h4>
+              <h4 style={{fontSize: 16, fontWeight: `normal`, marginBottom: `0.5em`}}>JS | React | Gatsby </h4>
+              <p>
+                <a style={{marginRight: `0.75em`}}href="https://github.com/Kwinnieprince/colruyt_recipe_search">
+                  <FaGithubAlt/>
+                </a>
+                <a href="https://food.kwinten.me">
+                    <FaGlobe/>
+                  </a>
+              </p>
+            </div> 
+          </div>
+          <div id="worksFour">
+          <div style={{ maxWidth: `400px`, border:`0.5px solid grey`}}>
                 <SpringImg/>
               </div>
             <div className="workGridTwo">
@@ -59,7 +77,7 @@ const WorkPage = () => (
               </p>
             </div> 
           </div>
-          <div id="worksFour">
+          <div id="worksFive">
               <div style={{ maxWidth: `400px`}}>
                 <PicrossImg/>
               </div>
@@ -73,7 +91,7 @@ const WorkPage = () => (
                 </p>
               </div>
           </div>
-          <div id="worksFive">
+          <div id="worksSix">
               <div style={{ maxWidth: `400px`}}>
                 <UsoImg/>
               </div>
