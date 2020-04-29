@@ -42,7 +42,7 @@ module.exports = {
         // Specify the API key for your Posthog Project (required)
         apiKey: "xUHFiBHmqFBKb4AUrXHFDwnr57_fCtPLw0nqJ-vQauw",
         // Specify the app host if self-hosting (optional, default: https://app.posthog.com)
-        appHost: "analytics.kwinten.me",
+        appHost: "https://analytics.kwinten.me",
         // Puts tracking script in the head instead of the body (optional, default: true)
         head: true
       },
