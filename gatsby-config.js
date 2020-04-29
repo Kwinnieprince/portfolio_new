@@ -44,7 +44,8 @@ module.exports = {
         // Specify the app host if self-hosting (optional, default: https://app.posthog.com)
         appHost: "https://analytics.kwinten.me",
         // Puts tracking script in the head instead of the body (optional, default: true)
-        head: true
+        head: true,
+        isEnabledDevMode: true
       },
     },
   ],
