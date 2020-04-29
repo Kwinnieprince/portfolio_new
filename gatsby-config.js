@@ -45,7 +45,6 @@ module.exports = {
         appHost: "https://analytics.kwinten.me",
         // Puts tracking script in the head instead of the body (optional, default: true)
         head: true,
-        isEnabledDevMode: true
       },
     },
   ],
