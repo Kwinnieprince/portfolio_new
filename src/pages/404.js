@@ -9,7 +9,7 @@ const NotFoundPage = () => (
     <SEO title="404: Not found" />
     <h1>This was not supposed to happen...</h1>
     <p>Sometimes webpages do not exist, but hey if you go <Link to="/">back</Link>, maybe you're not lost anymore!</p>
-    <iframe src="https://giphy.com/embed/l4Epf0KwYUQY5DcGc" width="300px" height="300vh" frameBorder="0"></iframe>
+    <img src="https://kwinten.me/lost.gif" width="300px" height="300vh" />
     <footer style={{position: `absolute`, bottom: `0`, height: `2em`, left: 0, marginLeft: `2.4rem`}}>
          <p>
             © {new Date().getFullYear()}, Built by
