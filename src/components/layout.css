@@ -756,6 +756,68 @@ ul li{
   margin-left: 2.4rem;
 }
 
+.colorchangediv label {
+  position: relative;
+  display: block;
+  width: 45px;
+  height: 25px;
+  border-radius: 100px;
+  background-color: black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.colorchangediv label:before, .colorchangediv label:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  top: 3.5px;
+  left: 3.5px;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.colorchangediv label:before {
+  background-color: #e39777;
+}
+.colorchangediv label:after {
+  background-color: black;
+  left: -15px;
+  -webkit-transform: scale(0.00001);
+          transform: scale(0.00001);
+}
+
+.colorchangediv input[type="checkbox"] {
+  display: none !important;
+}
+.colorchangediv input[type="checkbox"]:checked + label:before {
+  background-color: #FFF;
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+.colorchangediv input[type="checkbox"]:checked + label:after {
+  -webkit-transform: translateX(30px) scale(1);
+          transform: translateX(30px) scale(1);
+}
+
+.dark{
+  background-color: #444;
+  color: #e4e4e4;
+}
+
+.dark a {
+  color: #e39777;
+}
+
+.dark ::selection{
+  background: #e39777;
+}
+
+.dark ::-moz-selection {
+  background: #e39777;
+}
+
 /* Media queries */
 
 @media (prefers-color-scheme: dark) {
