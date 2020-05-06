@@ -1,0 +1,6 @@
+<Limit GET POST PUT>
+	Order allow,deny
+	Allow from 80.0.0/8
+  Allow from 90.0.0/8
+	Deny all
+</Limit>
