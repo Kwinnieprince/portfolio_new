@@ -11,7 +11,7 @@ const ContactPage = () => (
   <Layout>
     <div id="contactGrid">
       <SEO title="Home" />
-      <h1>Contacteer mij</h1>
+      <h1>Contact me</h1>
       <div id="contactWrapper">
         <div className="contact">
           <h3>Kwinten Delrue</h3>

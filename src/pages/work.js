@@ -17,11 +17,13 @@ const WorkPage = () => (
   <Layout>
     <div id="workGrid">
       <SEO title="Home" />
-      <h1>Mijn werk</h1>
+      <h1>My work</h1>
       <div id="workWrapper">
           <div id="worksOne">
               <div style={{ maxWidth: `400px`}}>
-                <WeerWilseleImg/>
+                <a href="https://weg.kwinten.me">
+                  <WeerWilseleImg/>
+                </a>
               </div>
               <div className="workGridTwo">
                 <h4 style={{marginBottom: `0.5em`}}>Weer Wilsele</h4>
@@ -35,10 +37,12 @@ const WorkPage = () => (
           </div>
           <div id="worksTwo">
           <div style={{ maxWidth: `400px`}}>
-                <NodeRedImg/>
+                <a href="https://github.com/Kwinnieprince/pink_flamingo">
+                  <NodeRedImg/>
+                </a>
               </div>
               <div className="workGridTwo">
-                <h4 style={{marginBottom: `0.5em`}}>IOT automatiseringsproject</h4>
+                <h4 style={{marginBottom: `0.5em`}}>IOT automating project</h4>
                 <h4 style={{fontSize: 16, fontWeight: `normal`, marginBottom: `0.5em`}}>IBM Cloud | Node-RED | Arduino </h4>
                 <p>
                   <a href="https://github.com/Kwinnieprince/pink_flamingo">
@@ -49,10 +53,12 @@ const WorkPage = () => (
           </div>
           <div id="worksThree">
           <div style={{ maxWidth: `400px`, border:`0.5px solid grey`}}>
-                <FoodImg/>
+                <a href="https://food.kwinten.me">
+                  <FoodImg/>
+                </a>
               </div>
             <div className="workGridTwo">
-              <h4 style={{marginBottom: `0.5em`}}>Website om gerechten te vinden</h4>
+              <h4 style={{marginBottom: `0.5em`}}>Website to vind meals</h4>
               <h4 style={{fontSize: 16, fontWeight: `normal`, marginBottom: `0.5em`}}>JS | React | Gatsby </h4>
               <p>
                 <a style={{marginRight: `0.75em`}}href="https://github.com/Kwinnieprince/colruyt_recipe_search">
@@ -66,10 +72,12 @@ const WorkPage = () => (
           </div>
           <div id="worksFour">
           <div style={{ maxWidth: `400px`, border:`0.5px solid grey`}}>
+            <a href="https://github.com/Kwinnieprince/IP_project">
                 <SpringImg/>
+            </a>
               </div>
             <div className="workGridTwo">
-              <h4 style={{marginBottom: `0.5em`}}>Full-stack webproject in Spring</h4>
+              <h4 style={{marginBottom: `0.5em`}}>Full-stack web project in Spring</h4>
               <h4 style={{fontSize: 16, fontWeight: `normal`, marginBottom: `0.5em`}}>Java | Spring Boot | Docker | Jenkins</h4>
               <p>
                 <a href="https://github.com/Kwinnieprince/IP_project">
@@ -80,7 +88,9 @@ const WorkPage = () => (
           </div>
           <div id="worksFive">
               <div style={{ maxWidth: `400px`}}>
-                <PicrossImg/>
+                <a href="https://github.com/Kwinnieprince/Picross">
+                  <PicrossImg/>
+                </a>
               </div>
               <div className="workGridTwo">
                 <h4 style={{marginBottom: `0.5em`}}>PiCross</h4>
@@ -94,7 +104,9 @@ const WorkPage = () => (
           </div>
           <div id="worksSix">
               <div style={{ maxWidth: `400px`}}>
-                <UsoImg/>
+                <a href="https://usoleuven.be">
+                  <UsoImg/>
+                </a>
               </div>
               <div className="workGridTwo">
                 <h4 style={{marginBottom: `0.5em`}}>Website USO-Leuven</h4>

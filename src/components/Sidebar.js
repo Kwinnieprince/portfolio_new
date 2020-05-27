@@ -34,14 +34,14 @@ const Sidebar = () => {
                             <Link 
                             style={{textDecoration: `none`, fontSize:30}}
                             to="/about"
-                            >Over mij</Link>
+                            >About myself</Link>
                         {/* </GlitchEffect> */}
                       </li>
                       <li style={{marginTop: `1.2em`}}>
                         {/* <GlitchEffect onHover={true} duration={"5s"}> */}
                           <Link 
                           style={{textDecoration: `none`, fontSize:30}}
-                          to="/cv">Mijn CV</Link>
+                          to="/cv">My resume</Link>
                         {/* </GlitchEffect> */}
                       </li>
                       <li style={{marginTop: `1.2em`}}>
@@ -49,14 +49,21 @@ const Sidebar = () => {
                           <Link 
                           style={{textDecoration: `none`, fontSize:30, cursor: `pointer`}}
                           to="/work"
-                          >Mijn werk</Link>
+                          >My work</Link>
                         {/* </GlitchEffect> */}
                       </li>
                       <li style={{marginTop: `1.2em`}}>
                         {/* <GlitchEffect onHover={true} duration={"5s"}> */}
                           <Link 
                           style={{textDecoration: `none`, fontSize:30}}
-                          to="/contact">Contacteer mij</Link>
+                          to="/contact">Contact me</Link>
+                        {/* </GlitchEffect> */}
+                      </li>
+                      <li style={{marginTop: `1.2em`}}>
+                        {/* <GlitchEffect onHover={true} duration={"5s"}> */}
+                          <a 
+                          style={{textDecoration: `none`, fontSize:30}}
+                          href="https://blog.kwinten.me">Blog</a>
                         {/* </GlitchEffect> */}
                       </li>
                       <li>

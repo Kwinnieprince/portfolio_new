@@ -10,52 +10,52 @@ const AboutPage = () => (
   <Layout>
     <div id="aboutGrid">
       <SEO title="About" />
-      <h1>Over mij</h1>
+      <h1>About myself</h1>
             <div id="aboutWrapper">
               <div>
                 <p>
-                  Hallo ik ben Kwinten, ik ben gepassioneerd in systeem- en netwerkbeheer, websites maken en ik speel zelf ook viool.
-                  Al van jongs af aan was ik geïnteresseerd in alles wat met systeem en netwerkbeheer te maken heeft en ik was snel bekend bij vrienden en familie voor mijn behulpzaamheid.
-                  Mijn droom is om webdesigner of systeem- en netwerkbeheerder te worden voor cloud- en on-premise diensten.
+                  Hi, I am Kwinten, I am passionate about system and network engineering, developing websites and managing infrastructure. I play violin myself.
+                  Since I was young I have been interested in system and network engineering and soon enough, I was known for my helpfulness.
+                  My dream is to become a system- and network engineer or infrastructure engineer for cloud- and on-premise services.
                 </p>                
               </div>
                 <div id="talents">
-                  <h3>Mijn talenten</h3>
+                  <h3>Mijn talents</h3>
                   <div className="talentsGrid">
                     <div>
-                      <h4 style={{marginBottom: 0}}>Netwerkbeheer</h4>
-                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>4 jaar ervaring</p>
+                      <h4 style={{marginBottom: 0}}>Network engineering</h4>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>4 years experience</p>
                     </div>
                     <div>
-                      <h4 style={{marginBottom: 0}}>Webontwikkeling</h4>
-                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>5 jaar ervaring</p>
+                      <h4 style={{marginBottom: 0}}>Web development</h4>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>5 years experience</p>
                     </div>
                     <div>
                       <h4 style={{marginBottom: 0}}>Linux | Unix</h4>
-                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>5 jaar ervaring</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>5 years experience</p>
                     </div>
                     <div>
-                      <h4 style={{marginBottom: 0}}>Sharepoint ontwerp</h4>
-                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>3 jaar ervaring</p>
+                      <h4 style={{marginBottom: 0}}>Sharepoint design</h4>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>3 years experience</p>
                     </div>
                     <div>
                       <h4 style={{marginBottom: 0}}>Office 365</h4>
-                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>3 jaar ervaring</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>3 years experience</p>
                     </div>
                     <div>
                       <h4 style={{marginBottom: 0}}>Docker</h4>
-                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>2 jaar ervaring</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>2 years experience</p>
                     </div>
                     <div id="otherTalents">
-                      <h4 style={{marginBottom: 0}}>Andere talenten</h4>
+                      <h4 style={{marginBottom: 0}}>Other talents</h4>
                       <p style={{fontWeight: `normal`, fontSize: `16px`}}>Java</p>
                       <p style={{fontWeight: `normal`, fontSize: `16px`}}>Git</p>
-                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>Engels</p>
-                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>Frans</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>English</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>French</p>
                       <p style={{fontWeight: `normal`, fontSize: `16px`}}>React</p>
                       <p style={{fontWeight: `normal`, fontSize: `16px`}}>Terraform</p>
                       <p style={{fontWeight: `normal`, fontSize: `16px`}}>AWS</p>
-                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>Microsoft Azure</p>
+                      <p style={{fontWeight: `normal`, fontSize: `16px`}}>Azure</p>
                     </div>
                   </div>
                 </div>
