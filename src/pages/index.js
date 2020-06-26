@@ -11,7 +11,7 @@ const IndexPage = () => (
     <div id="indexGrid">
       <SEO title="Home" />
       <div style={{paddingTop: `50px`}}>
-        <h1 style={{margin: 0, fontSize: `7vw`, gridColumn: 1}}>Hi there, ik am an <br/> system- and <br/> network engineer | <br/> Infrastructure engineer</h1>
+        <h1 style={{margin: 0, fontSize: `7vw`, gridColumn: 1}}>Hi there, i am an <br/> system- and <br/> network engineer | <br/> Infrastructure engineer</h1>
       </div>
       <div style={{gridColumn: 2}}>
         <div className="navigation" style={{ margin: `0 auto`, zIndex: 20000}}>
