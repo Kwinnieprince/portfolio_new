@@ -645,7 +645,7 @@ ul li{
 #studies, #werkervaring, #vrijwilliger{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.3fr 1fr 1fr;
+  grid-template-rows: 0.3fr 1fr 1fr 1fr;
   margin-bottom: 2em;
 }
 
@@ -672,6 +672,11 @@ ul li{
 #schoolFour, #workFour{
   grid-column: 2;
   grid-row: 3;
+}
+
+#workFive{
+  grid-column: 1;
+  grid-row: 4;
 }
 
 #indexGrid{

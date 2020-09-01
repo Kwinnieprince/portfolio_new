@@ -6,7 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^2.20.18",
-    "gatsby-cli": "^2.7.56",
+    "gatsby-cli": "^2.12.60",
     "gatsby-image": "^2.2.23",
     "gatsby-plugin-cname": "^1.0.0",
     "gatsby-plugin-fathom": "^1.1.0",

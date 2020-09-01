@@ -68,6 +68,11 @@ const CvPage = () => (
             <div id="werkervaring" style={{marginBottom: 0}}>
               <h3>Work experience</h3>
               <div id="workOne" style={{marginBottom: `2em`}}>
+                <h4 style={{margin: 0, marginBottom: `5px`}}>System engineer</h4>
+                <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`, marginBottom: `5px`}}>KBC Bank & Verzekering</h4>
+                <p style={{margin: 0}}>2020 - present</p>
+              </div>
+              <div id="workTwo" style={{marginBottom: `2em`}}>
                 <h4 style={{margin: 0, marginBottom: `5px`}}>Sales and training partner</h4>
                 <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`, marginBottom: `5px`}}>Edu-tech</h4>
                 <p style={{margin: 0}}>2017 - present</p>
@@ -75,19 +80,19 @@ const CvPage = () => (
                 <p style={{margin: 0}}>Managing networks</p>
                 <p style={{margin: 0}}>Helping customers</p>
               </div>
-              <div id="workTwo" style={{marginBottom: `2em`}}>
+              <div id="workThree" style={{marginBottom: `2em`}}>
                 <h4 style={{margin: 0, marginBottom: `5px`}}>Intern</h4>
                 <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`, marginBottom: `5px`}}>Datacamp Leuven</h4>
                 <p style={{margin: 0}}>February 2020 - June 2020</p>
                 <p style={{margin: 0}}>Infrastructure engineer</p>
               </div>
-              <div id="workThree" style={{marginBottom: `2em`}}>
+              <div id="workFour" style={{marginBottom: `2em`}}>
                 <h4 style={{margin: 0, marginBottom: `5px`}}>Webmaster</h4>
                 <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`, marginBottom: `5px`}}>University Symphony Orchestra of the KU-Leuven</h4>
                 <p style={{margin: 0}}>2018 - present</p>
                 <p style={{margin: 0}}>Maintenance and development of the website</p>
               </div>
-              <div id="workFour">
+              <div id="workFive">
                 <h4 style={{margin: 0, marginBottom: `5px`}}>Rider</h4>
                 <h4 style={{margin: 0, fontSize: 16, fontWeight: `normal`, marginBottom: `5px`}}>Deliveroo</h4>
                 <p style={{margin: 0}}>2016 - 2019</p>
