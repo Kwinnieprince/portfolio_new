@@ -15,7 +15,7 @@
     "gatsby-plugin-offline": "^3.0.11",
     "gatsby-plugin-posthog-analytics": "0.0.1",
     "gatsby-plugin-react-helmet": "^3.1.10",
-    "gatsby-plugin-sharp": "^2.2.27",
+    "gatsby-plugin-sharp": "^2.6.42",
     "gatsby-source-filesystem": "^2.1.28",
     "gatsby-transformer-sharp": "^2.2.19",
     "posthog-js": "^1.0.6",

@@ -40,7 +40,7 @@ module.exports = {
       resolve: `gatsby-plugin-posthog-analytics`,
       options: {
         // Specify the API key for your Posthog Project (required)
-        apiKey: "xUHFiBHmqFBKb4AUrXHFDwnr57_fCtPLw0nqJ-vQauw",
+        apiKey: "IVmTguUmDbpPZG3E-WrB1KsnThzfiEjn18DMX7_wZdw",
         // Specify the app host if self-hosting (optional, default: https://app.posthog.com)
         apiHost: "https://analytics.kwinten.me",
         // Puts tracking script in the head instead of the body (optional, default: true)
